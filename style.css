@@ -1,11 +1,18 @@
 body{
-    background-color: rgb(0,79 , 152);
+    background-color: #012030;
 }
 
-.message_de_bienvenue {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
 
+.message_de_bienvenue{
+    text-align: center;
+    background-color: #003152;
+    padding: 550px;
+    
+    text-decoration: underline;
+    color: beige;
 }
+
+
+
+
+    
