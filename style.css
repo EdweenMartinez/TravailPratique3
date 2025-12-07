@@ -12,6 +12,33 @@ body{
     color: beige;
 }
 
+footer{
+background-color:#121212;
+height: 400px;
+color: white;
+font-size: 30px;
+display: flex;
+justify-content:space-around;
+text-align: center;
+
+}
+
+.link_footer{
+color: gray;
+
+}
+
+#logoFooter{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+h4{
+    font-size: 45px;
+}
+
+
+
 
 
 
