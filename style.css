@@ -1,5 +1,5 @@
 body{
-    background-color: #012030;
+    background-image: url(./IMages/resized_gradient.jpg);
 }
 
 
@@ -37,30 +37,44 @@ h4{
     font-size: 45px;
 }
 
-#sectionTitre{
-    background-color:#DEC812 ;
-    height: 150px;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #003152;
-   
-
-}
 
 .bArticle{
-
+    
     width: 400px;
     height:400px ;
     border-radius: 20px;
     background-color: #003152;
+    color: white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .divArticle{
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
+    
 }
 
+.imageArticle{
+    width: 200px;
+    height: 200px ;
+    border-radius: 20px;
+}
+
+.texteArticle{
+
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 
