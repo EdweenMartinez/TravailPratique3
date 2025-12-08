@@ -76,6 +76,50 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+header{
+    background-color: grey;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+.imageHeader{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    
+}
+
+.bHeader{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    font-size:20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#barreRecherche{
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.divHeader{
+    margin-top: 25px;
+}
+
+.divImageHeader{
+    margin-top: 10px;
+}
+#bRecherche{
+    height: 50px;
+    color: white;
+    width: 45px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
 
 
 
