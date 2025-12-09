@@ -180,7 +180,21 @@ h2{
     font-size: 20px;
     
 }
+#divCategorie{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 40px;
+    
+    
+}
 
+.linkCategorie{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 6px;
+}
 
 
 
