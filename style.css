@@ -15,7 +15,7 @@ body{
 footer{
 background-color:#121212;
 height: 400px;
-color: white;
+color: gray;
 font-size: 30px;
 display: flex;
 justify-content:space-around;
@@ -35,6 +35,7 @@ color: gray;
 }
 h4{
     font-size: 45px;
+    color: white;
 }
 
 
@@ -80,6 +81,12 @@ header{
    
     display: flex;
     justify-content:space-between;
+    
+
+    height: 100px;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-bottom-color:#003152;
 }
 .imageHeader{
     width: 80px;
@@ -118,8 +125,107 @@ header{
     border-radius: 10px;
 }
 
+#containerContact{
+    margin-top: 80px;
+display: flex;
+justify-content: space-between;
+}
+#divFormulaire{
 
+    background-color:#121212;
 
+    width: 900px;
+
+    height: 800px;
+    border-radius: 20px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+
+   
+}
+#photoContact{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    
+}
+#divInfo{
+   
+   width: 1050px;
+   
+}
+#bFormulaire{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 310px;
+    background-color: #003152;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.formulaire{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+#divCategorie{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 40px;
+    
+    
+}
+
+.linkCategorie{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 6px;
+}
+.iconContact{
+    width: 80px;
+    height: 80px;
+}
+.divTel{
+    display: flex;
+    justify-content: center;
+}
+.texteTel{
+    color: white;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    
+}
+
+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+#divReseau_Map{
+    display: flex;
+    justify-content: space-between;
+}
+
+#g{
+   background-color: gray;
+   width: 100px;
+}
 
 
 
