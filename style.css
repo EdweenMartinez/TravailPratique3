@@ -99,7 +99,13 @@ header{
     border-radius: 10px;
     font-size:20px ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    }
+
+    .bHeader:hover{
+        background-color: #ffcc00; 
+        box-shadow: 0 0 15px #ffcc00; 
+        cursor: pointer;
+    }
 
 #barreRecherche{
     height: 45px;
