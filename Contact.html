@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
      <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
     <header>
         <div class="divImageHeader" style="margin-left: 20px;">
-            <a href="./Acceuil.html"><img class="imageHeader" src="./IMages/logoFondBlanc.png" alt="photo du logo"></a>
+            <a href="./Acceuil.html"><img id="logoHeader" src="./IMages/logoFondBlanc.png" alt="photo du logo"></a>
             
         </div>
         <div class="divHeader">
@@ -27,7 +27,7 @@
         <div class="divHeader"><a href="./Contact.html"><button class="bHeader">CONTACT</button></a></div>
         <div class="divHeader"><a href="./Articles.html"><button class="bHeader">ARTICLES</button></a></div>
         <div class="divImageHeader" style="margin-right: 20px;">
-            <img class="imageHeader" src="./IMages/Cart-Photoroom.png" alt="photo dun panier">
+            <img id="cartHeader" src="./IMages/Cart-Photoroom.png" alt="photo dun panier">
         </div>
     </header>
 
@@ -41,12 +41,12 @@
             <div id="divInfo" >
                <h1>Contactez-Nous</h1>
                 <div style="margin-right: 100px;" class="divTel">
-               <div><img class="iconContact" src="./IMages/iconPhone.png" alt=""></div>
+               <div><img class="iconContact" src="./IMages/iconPhone.png" alt="icon dun telephone"></div>
                <div class="texteTel"><p >(450) 888-8888</p></div>
             </div>
 
             <div style="margin-top: 20px;" class="divTel">
-               <div><img class="iconContact" src="./IMages/emailIcon.png" alt=""></div>
+               <div><img class="iconContact" src="./IMages/emailIcon.png" alt="icone de un lettre"></div>
                <div class="texteTel"><p >support@SportIdle.com</p></div>
             </div>
 
@@ -58,12 +58,13 @@
 
             <div id="divReseau_Map">
                 <div style="display: flex; margin-top: 60px;">
-                    <div style="margin-left: 120px;" ><a href="https://x.com" target="_blank"><img class="iconContact" src="./IMages/iconX.png" alt=""></a></div>
-                    <div style="margin-left: 20px;"><a href="http://www.instagram.com" target="_blank"><img class="iconContact" src="./IMages/iconIG.png" alt=""></a></div>
-                    <div style="margin-left: 20px;"><a href="https://www.facebook.com" target="_blank"><img class="iconContact" src="./IMages/iconFacebook.png" alt=""></a></div>
+                    <div style="margin-left: 120px;" ><a href="https://x.com" target="_blank"><img class="iconContact" src="./IMages/iconX.png" alt="icon de twitter"></a></div>
+                    <div style="margin-left: 20px;"><a href="http://www.instagram.com" target="_blank"><img class="iconContact" src="./IMages/iconIG.png" alt="Icon de instagram"></a></div>
+                    <div style="margin-left: 20px;"><a href="https://www.facebook.com" target="_blank"><img class="iconContact" src="./IMages/iconFacebook.png" alt="icon de facebook"></a></div>
                 </div>
-                <div style="margin-right: 0px;">
-                    <iframe src="https://maps.app.goo.gl/dPvnk2GXYJXJgmzz5" width="400px" height="200px" frameborder="0"></iframe>
+                <div style="margin-right: 60px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7904.670123233166!2d-73.65004339880268!3d45.53578102034675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1765381720966!5m2!1sen!2sca" width="400px" height="200px" style="border-radius: 20px;" frameborder="0"></iframe>
+                    
                 </div>
             </div>
 
@@ -73,9 +74,13 @@
             <div id="divFormulaire">
                     <input class = "formulaire" type="text" placeholder = "  Nom..." >
                     <input class = "formulaire" type="text" placeholder = "  Courriel..." >
-                    <input style="height: 120px;" class = "formulaire" type="text" placeholder = "  Message..." >
+                    <input style="height: 150px;" class = "formulaire" type="text" placeholder = "  Message..." >
                
                     <button id="bFormulaire">Contactez-nous</button>
+
+                    <div >
+                        <p id="verification"></p>
+                    </div>
                 
             </div>
         </div>
@@ -119,5 +124,6 @@ Saint-Laurent, QC, H4T 2K9 <br><br><br>
         </div>
     </footer>
     
+    <script src="script.js"></script>
 </body>
 </html>
