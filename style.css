@@ -87,9 +87,9 @@ header{
     
 
     height: 100px;
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-bottom-color:#003152;
+    
+    
+    
     background-color: rgba(0, 0, 0, 0.6);
     
 }
@@ -254,7 +254,7 @@ h3{
 .texte_à_propos{
 text-align: center;
 background-color: rgba(0, 0, 0, 0.6);
-font-size: large;
+font-size: x-large;
 padding: 30px;
 color: white;
 box-sizing: border-box;
@@ -264,12 +264,19 @@ box-sizing: border-box;
 margin-left: 30px;
 }
 
+ 
+.lienYoutube{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
 #verification{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     text-align: center;
 }
+
 
 
 
