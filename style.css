@@ -1,5 +1,6 @@
 body{
-    background-color: #003152; 
+    background-image: url(./IMages/resized_gradient.jpg); 
+     background-size: cover;
 }
 
 
@@ -117,7 +118,7 @@ header{
     height: 45px;
     border-radius: 10px;
     font-size: 20px;
-    width: 400px;
+    width: 700px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .divHeader{
