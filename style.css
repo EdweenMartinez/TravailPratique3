@@ -47,6 +47,11 @@ h4{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
+.bArticle:hover{
+        background-color: gray; 
+        box-shadow: 0 0 15px #ffcc00; 
+        cursor: pointer;
+    }
 
 .divArticle{
     display: flex;
