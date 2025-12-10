@@ -87,9 +87,9 @@ header{
     
 
     height: 100px;
-    border-bottom-style: solid;
-    border-width: 5px;
-    border-bottom-color:#003152;
+    
+    
+    
     background-color: rgba(0, 0, 0, 0.6);
     
 }
@@ -264,11 +264,12 @@ box-sizing: border-box;
 margin-left: 30px;
 }
 
-<<<<<<< HEAD
+ 
 .lienYoutube{
     text-align: center;
+    margin-bottom: 100px;
 }
-=======
+
 #verification{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -277,7 +278,7 @@ margin-left: 30px;
 }
 
 
->>>>>>> 2f3573dd551f7792474137fcb140e771d58a04dd
+
 
 
 
