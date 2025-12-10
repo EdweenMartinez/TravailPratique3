@@ -1,15 +1,12 @@
 body{
-    background-image: url(./IMages/resized_gradient.jpg);
+    background-color: #003152; 
 }
 
 
 .message_de_bienvenue{
     text-align: center;
-    background-color: #003152;
-    padding: 550px;
-    
-    text-decoration: underline;
     color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer{
@@ -87,6 +84,7 @@ header{
     border-bottom-style: solid;
     border-width: 5px;
     border-bottom-color:#003152;
+    background-color: #121212;
 }
 .imageHeader{
     width: 80px;
@@ -101,7 +99,13 @@ header{
     border-radius: 10px;
     font-size:20px ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    }
+
+    .bHeader:hover{
+        background-color: #ffcc00; 
+        box-shadow: 0 0 15px #ffcc00; 
+        cursor: pointer;
+    }
 
 #barreRecherche{
     height: 45px;
@@ -225,6 +229,20 @@ h3{
 #g{
    background-color: gray;
    width: 100px;
+}
+
+
+.texte_à_propos{
+text-align: center;
+background-color: rgba(0, 0, 0, 0.6);
+font-size: large;
+padding: 30px;
+color: white;
+box-sizing: border-box;
+
+
+
+margin-left: 30px;
 }
 
 
