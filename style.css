@@ -93,12 +93,19 @@ header{
     background-color: rgba(0, 0, 0, 0.6);
     
 }
-.imageHeader{
+#logoHeader{
     width: 80px;
     height: 80px;
     border-radius: 10px;
     
 }
+#cartHeader{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    
+}
+
 
 .bHeader{
     width: 180px;
