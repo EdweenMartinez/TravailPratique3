@@ -12,9 +12,9 @@ body{
 
 footer{
 background-color:#121212;
-height: 400px;
+height: 350px;
 color: gray;
-font-size: 30px;
+font-size: 25px;
 display: flex;
 justify-content:space-around;
 text-align: center;
@@ -27,12 +27,12 @@ color: gray;
 }
 
 #logoFooter{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 20px;
 }
 h4{
-    font-size: 45px;
+    font-size: 40px;
     color: white;
 }
 
