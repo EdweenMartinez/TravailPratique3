@@ -27,7 +27,26 @@ window.addEventListener("DOMContentLoaded",() =>{
        cart.style.height = "90px";
        cart.style.width = "90px";
     }
+});
+
+
+
+const champs = document.querySelectorAll(".formulaire");
+
+champs.forEach(champs => {
+    champs.addEventListener("focus", () =>{
+        champs.style.backgroundColor = "#B1F6FC";
+    });
+
+    champs.addEventListener("blur",() =>{
+champs.style.backgroundColor = "white";
+
 })
+   
+});
+
+
+
 
 
 
