@@ -18,6 +18,8 @@ document.querySelectorAll(".bArticle").forEach(article => {
     });
 });
 
+/*-------------------------le panier plein soit afficher dans tous les pages----------------------------------*/
+
 window.addEventListener("DOMContentLoaded",() =>{
 
     const cart = document.getElementById("cartHeader");
@@ -29,7 +31,7 @@ window.addEventListener("DOMContentLoaded",() =>{
     }
 });
 
-
+/*-------------------------quand ont clique sur un champs du formulaire il devient bleu----------------------------------*/
 
 const champs = document.querySelectorAll(".formulaire");
 
@@ -46,6 +48,7 @@ champs.style.backgroundColor = "white";
 });
 
 
+/*-------------------------quand on clique sur le imput recherche iul devient bleu----------------------------------*/
 
 const barre = document.getElementById("barreRecherche");
 
@@ -58,6 +61,9 @@ const barre = document.getElementById("barreRecherche");
 barre.style.backgroundColor = "white";
 
 });
+
+
+/*-------------------------Quand 1 des champs ou plusieurs ne sont pas remplis = message erreur et quand ils sont remplie = message envoyer----------------------------------*/
 
 
 const bouton = document.getElementById("bFormulaire"); 
@@ -75,13 +81,13 @@ bouton.addEventListener("click", () => {
 
     if(vide){
         verif.style.color = "red";
-        verif.textContent = "Remplir rous les champs svp!";
+        verif.textContent = "Remplir tsous les champs svp!";
         verif.style.display = "block";
 
     }else{
        
         verif.style.color = "yellow";
-        verif.textContent = "Message envoyer"
+        verif.textContent = "Message envoyé"
 
         champs.forEach(champs =>{
             champs.value = "";
