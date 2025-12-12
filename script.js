@@ -1,22 +1,20 @@
 /*---------------------- Pour afficher le message ajouter au panier dans la page articles  et changement de icon cart ---------------------------*/
 
-document.querySelectorAll(".bArticle").forEach(article => {
-    article.addEventListener("click", () => {
+document.querySelectorAll(".bArticle").forEach(article=>{
+    article.addEventListener("click",() =>{
         alert("Ajouter au panier");
 
         const cart = document.getElementById("cartHeader");
 
-       cart.src = "./IMages/cart_plein.png";
-       cart.style.height = "90px";
-       cart.style.width = "90px";
+        cart.src = "./IMages/cart_plein.png";
+        cart.style.height = "90px";
+        cart.style.width = "90px";
 
-       sessionStorage.setItem("cartPlein" ,"true");
+        sessionStorage.setItem("cartPlein" , "true");
 
-
-       
-       
     });
 });
+    
 
 /*-------------------------le panier plein soit afficher dans tous les pages----------------------------------*/
 
